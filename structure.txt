@@ -1,0 +1,20 @@
+trend_aware_recommendation/
+├── config/
+│   └── config.yaml           # Configuration file with model and training parameters
+├── data/
+│   ├── crunchbase/           # Directory for raw Crunchbase data
+│   └── processed/            # Directory for preprocessed data
+├── models/
+│   ├── trend_extraction.py   # Module for trend extraction using sequential data
+│   ├── preference_propagation.py  # Module for preference propagation with GNN
+│   └── scoring.py            # Module for final scoring and recommendation
+├── saved_models/             # Directory to save trained models and checkpoints
+├── results/
+│   ├── plots/                # Directory for training and evaluation plots
+│   └── reports/              # Directory for performance reports
+├── src/
+│   ├── preprocessing.py      # Data preprocessing and description extraction module
+│   └── train.py              # Training script for the entire pipeline
+├── tests/
+│   └── test_preprocessing.py # Test script for validating preprocessing functionality
+└── main.py                   # Main script to initialize and run the project

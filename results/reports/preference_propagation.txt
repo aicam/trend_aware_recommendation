@@ -1,0 +1,17 @@
+(env) alinikkhah@AliNIkkhah-2 trend_aware_recommendation % python3 tests/test_preference_extraction.py
+
+Testing Preference Propagation with Synthetic Data
+Training PreferencePropagation:   0%|                                                                                                                                                                                           | 0/10 [00:00<?, ?it/s]Epoch 1/10, Loss: 0.6855
+Epoch 2/10, Loss: 0.6354
+Epoch 3/10, Loss: 0.5923
+Epoch 4/10, Loss: 0.5532
+Epoch 5/10, Loss: 0.5176
+Epoch 6/10, Loss: 0.4844
+Epoch 7/10, Loss: 0.4538
+Epoch 8/10, Loss: 0.4254
+Epoch 9/10, Loss: 0.3989
+Epoch 10/10, Loss: 0.3741
+Training PreferencePropagation: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:00<00:00, 104.19it/s]
+
+Testing completed. Model training and evaluation complete.
+(env) alinikkhah@AliNIkkhah-2 trend_aware_recommendation % 
