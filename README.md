@@ -47,7 +47,7 @@ The heterogeneous graph structure of the data is visualized below:
 ### Sample Nodes and Edges in the Heterogeneous Graph
 
 #### Visualization 1
-![Sample Nodes and Edges](results/plots/sample nodes.png)
+![Sample Nodes and Edges](results/plots/sample_nodes.png)
 
 This image illustrates the connections between different node types in the heterogeneous graph. Nodes represent various entities like organizations, country codes, state codes, regions, and cities. The edges represent the relationships between these entities.
 
